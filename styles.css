@@ -3,6 +3,11 @@ body {
     color: #413131;
     text-align: justify;
 }
+.Menu {
+    border: 1px solid #413131;
+    padding: 0% 0% 5% 5%;
+}
+
 li {
     margin-top: 10px;
 }
