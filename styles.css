@@ -32,6 +32,7 @@ li {
 
 img {
     width: 500px;
+    overflow: auto;
 }
 
 h1, h2 {
@@ -75,4 +76,9 @@ h1, h2 {
     width: 300px;
     height: 200px;
     border: 1px solid #413131;
+}
+
+ul, ol, .p {
+    max-width: 600px;
+    margin: auto;
 }
