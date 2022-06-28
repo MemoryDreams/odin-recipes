@@ -8,6 +8,24 @@ body {
     padding: 0% 0% 5% 5%;
 }
 
+.button {
+    position: absolute;
+    text-decoration: none;
+    color: #413131;
+    border: 1px solid #413131;
+    width: 100px;
+    padding: 4px;
+    margin-top: 15px;
+    margin-left: -10px;
+    border-top: 1px solid #f1c1c1;
+    border-left: 1px solid #f1c1c1;
+}
+
+.button:active {
+    border: 1px solid #413131;
+}
+
+
 li {
     margin-top: 10px;
 }
@@ -20,13 +38,41 @@ h1, h2 {
     text-align: center;
 }
 
+
 .photo {
     margin: auto;
+    border-radius: 0 0 2% 2%;
     border: 1px solid #413131;
     width: 500px;
-    border-radius: 0 0 2% 2%;
     background-color: #f1c1c1;
-}
-.photo h3 {
     text-align: center;
+    margin-bottom: 30px;
+}
+
+.photo a {
+    text-align: center;
+    text-decoration: none;
+    color:#413131;
+}
+
+.mainmenu {
+    padding: 0; 
+}
+
+.mainmenu {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0%;
+}
+
+
+.menupic {
+    height: 250px;
+    width: 300px;
+}
+
+.menupic img {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #413131;
 }
