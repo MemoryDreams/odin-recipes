@@ -11,9 +11,11 @@ body {
 .button {
     position: absolute;
     text-decoration: none;
+    text-align: center;
+    overflow: hidden;
     color: #413131;
     border: 1px solid #413131;
-    width: 100px;
+    width: 150px;
     padding: 4px;
     margin-top: 15px;
     margin-left: -10px;
