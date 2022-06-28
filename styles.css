@@ -1,8 +1,27 @@
 body {
     background-color: bisque;
+    color: #413131;
+    text-align: justify;
+}
+li {
+    margin-top: 10px;
 }
 
 img {
-    max-width: 500px;
-    min-width: 400px;
+    width: 500px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.photo {
+    margin: auto;
+    border: 1px solid #413131;
+    width: 500px;
+    border-radius: 0 0 2% 2%;
+    background-color: #f1c1c1;
+}
+.photo h3 {
+    text-align: center;
 }
